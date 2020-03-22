@@ -1,19 +1,27 @@
 {
-  "name": "eve",
-  "version": "1.0.0",
-  "description": "",
+  "name": "rpjeeves",
+  "version": "1.1.1",
+  "description": "Your butler in New Eden",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node http",
+    "start": "node --max-old-space-size=16384 index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^3.0.0",
-    "config": "^3.3.0",
-    "inquirer": "^7.1.0",
-    "node-fetch": "^2.6.0",
-    "openid-client": "^3.14.1",
-    "simple-oauth2": "^3.3.0"
+    "chalk": "3.0.0",
+    "config": "3.3.0",
+    "fastify": "2.13.0",
+    "inquirer": "7.1.0",
+    "moment": "2.24.0",
+    "node-fetch": "2.6.0",
+    "numeral": "2.0.6",
+    "openid-client": "3.14.1",
+    "readline": "1.3.0",
+    "simple-oauth2": "3.3.0",
+    "uuid": "7.0.2",
+    "winston": "3.2.1",
+    "yaml": "1.8.3"
   }
 }
