@@ -6,6 +6,18 @@ What began as a "quick" day-project exploration into [the ESI](https://esi.evete
 
 It's messy as can be, but has proven useful & so has been made public in the hope it can be for others.
 
+## Screenshots
+
+(From various versions)
+
+![Various tools in v1.0.6 on OS X](http://static.eve.rpjios.link/1.0.6_all_osx.png)
+
+![Routing tool with zKillboard data](http://static.eve.rpjios.link/route_with_zkb.png)
+
+![Asynchronous message delivery for infrequent events](http://static.eve.rpjios.link/msgs.png)
+
+![Raw ESI request helper tool](http://static.eve.rpjios.link/raw_esi_req.png)
+
 ## Setup
 
 ### Prerequisites
@@ -77,12 +89,6 @@ EVE's OAuth2 implementation produces tokens that are valid for 20 minutes. `rpje
 Requires at least 1.5 gigabytes of disk space, as it sources the [EVE static data](https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip) bundle, unpacks and parses it into a form used to *significantly* increase application performace.
 
 This process will only be run once on first execution. Use of the cache can be disabled at any time by setting `config.app.useStaticDataCache` to `false`. If this value is `false` at initial execution, no download will take place and will instead occur if/when the feature is enabled.
-
-### Tools
-
-A picture is worth a thousand words, after all. So here's a few thousand:
-
-..
 
 ## OAuth redirect server
 
